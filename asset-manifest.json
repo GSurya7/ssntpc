@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ssntpc/static/css/main.f855e6bc.css",
+    "main.js": "/ssntpc/static/js/main.2de9a0df.js",
+    "static/js/453.c3032e07.chunk.js": "/ssntpc/static/js/453.c3032e07.chunk.js",
+    "index.html": "/ssntpc/index.html",
+    "main.f855e6bc.css.map": "/ssntpc/static/css/main.f855e6bc.css.map",
+    "main.2de9a0df.js.map": "/ssntpc/static/js/main.2de9a0df.js.map",
+    "453.c3032e07.chunk.js.map": "/ssntpc/static/js/453.c3032e07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.2de9a0df.js"
+  ]
+}
