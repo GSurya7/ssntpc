@@ -1,5 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+}
+
+.Appnew{
+  display: block;
 }
 
 .App-logo {
@@ -35,4 +44,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.routes-sidebar{
+  display: flex;
+  flex-direction: row;
 }

@@ -1,0 +1,14 @@
+.img{
+    display: block;
+}
+
+.bg-container{
+    background-color: rgb(36, 55, 71);
+    width: auto;
+    display: block;
+    display: flex;
+}
+.p{
+    margin: 5px;
+    color: #ffffff;
+}

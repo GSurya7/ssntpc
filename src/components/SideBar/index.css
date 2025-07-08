@@ -1,0 +1,16 @@
+.report{
+    border: 1px solid #808080;        /* Gray border */
+    background-color: #f0f0f0;        /* Light gray background */
+    color: #000000;                   /* Black text */
+              /* Vertical and horizontal padding */
+    font-size: 16px;                  /* Font size */
+    font-family: Arial, sans-serif;   /* Clean sans-serif font */
+    text-align: center;               /* Centered text */
+    text-decoration: none;                   /* Pointer on hover */
+    border-radius: 4px;               /* Slightly rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.report:hover {
+    background-color: #e0e0e0;        /* Slightly darker on hover */
+}
