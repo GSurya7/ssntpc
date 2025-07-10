@@ -1,0 +1,31 @@
+.bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  margin-left: 100px;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(42, 40, 40, 0.5);
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(129, 125, 125, 0.5);
+  padding: 50px;
+}
+
+.input {
+  color: #ffffff;
+}
+
+.ntpc-img {
+  height: 40px;
+  width: 50px;
+  align-self: center;
+  margin-bottom: 10px;
+}

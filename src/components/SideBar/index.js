@@ -9,7 +9,8 @@ const BtnList = [
   'Tender in Archive',
   'Tender Status',
   'Canceled/Retendered',
-  'Debarment List'
+  'Debarment List',
+  'OpenTenderDocument'
 ];
 
 const SideBar = () => {

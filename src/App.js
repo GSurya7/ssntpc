@@ -5,6 +5,8 @@ import TenderByLocation from "./components/TenderByLocation";
 import Reports from "./components/Reports";
 import MainLayout from "./components/MainLayout";
 import PlainLayout from "./components/PlainLayout";
+import OpenTenderDocument from "./components/OpenTenderDocument";
+import SingleTender from "./components/SingleTender";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/TenderByLocation" element={<TenderByLocation />} />
+          <Route path="/OpenTenderDocument" element={<OpenTenderDocument />}/>
+          <Route path="/single" element={<SingleTender />} />
         </Route>
 
         {/* Route without Header and Sidebar */}
