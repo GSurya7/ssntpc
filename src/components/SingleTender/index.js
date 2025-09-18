@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
-import jsPDF from 'jspdf'
+import {jsPDF} from 'jspdf'
 import './index.css'
 
 const singleLocation = [
@@ -64,6 +64,14 @@ const SingleTender = () => {
       }
       setListSingle(prev => [...prev, newObj])
     }
+    console.log(pack);
+    const doc = new jsPDF()
+    doc.text('Tender Details:', 10, 10)
+    doc.text(`Package Name: ${pack}`, 10, 20)
+    doc.text(`Location: ${locat}`, 10, 30)
+    doc.text(`Completion Period: ${contract}`, 10, 40)
+    doc.text(`Defect Liability Period: ${period}`, 10, 50)
+    doc.save(`${pack}_tender.pdf`)
   }
 
   const singleBtn = () => {
@@ -71,13 +79,7 @@ const SingleTender = () => {
   }
 
   const generate = item => {
-    const doc = new jsPDF()
-    doc.text('Tender Details:', 10, 10)
-    doc.text(`Package Name: ${item.pack}`, 10, 20)
-    doc.text(`Location: ${item.locat}`, 10, 30)
-    doc.text(`Completion Period: ${item.contract}`, 10, 40)
-    doc.text(`Defect Liability Period: ${item.period}`, 10, 50)
-    doc.save(`${item.pack}_tender.pdf`)
+    
   }
 
   return (
